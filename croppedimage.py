@@ -7,7 +7,7 @@ import pandas as pd
 
 cropped_train = pd.DataFrame()
 
-directory = "C:\\Users\\LENOVO\\task\\data" 
+directory = "C:\\Users\\LENOVO\\task\\data"    """ replace with required path"""
 x, y = 0 , 0
 
 
@@ -15,7 +15,7 @@ x, y = 0 , 0
 perform the sliding window operation and append to the cropped_train dataframe"""
 
 for name in listdir(directory):
-    path = "C:\\Users\\LENOVO\\task\\data"
+    path = "C:\\Users\\LENOVO\\task\\data"    """ replace with required path"""
     path = path + '\\' + name 
     nimg = cv2.imread(path)
     rimg = cv2.resize(nimg,(500,500),interpolation=cv2.INTER_AREA)
