@@ -32,8 +32,8 @@ b)	The windows that have the object will be trained positively and the windows t
 Apart from all these features, the model also has a novel loss function as shown below:
  
  
- 
- ![alt text](voni.jpg)
+<img src="voni.JPG" > 
+
  
  This loss function ensures that the multi-class loss is considered (‘k’ is sum over the classes) 
 
